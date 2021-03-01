@@ -1,0 +1,48 @@
+body {
+	padding: 0px;
+	font-family: christmas;
+	background-image: url(../image/background.jpg);  
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+@font-face {
+    font-family: christmas;
+    src: url(../fonts/christmas.otf);
+}
+
+/*Шапка сайта*/
+header {
+	display: flex;
+}
+
+header div {
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	margin-bottom: 0px;
+}
+
+header p {
+	margin-top: 0px;
+	color: white;
+	font-size: 70px;
+	text-shadow: 1px 1px 7px black;
+	margin-right: 10px;
+}
+
+header img {
+	filter: drop-shadow(1px 1px 7px black);
+	width: 70px;
+	height: 70px;
+}
+
+/*Карта Leaflet*/
+#mapid { 
+	height: 500px; 
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+}
