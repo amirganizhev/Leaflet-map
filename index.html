@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Географическая карта">
 	<meta name="keywords" content="Карта">
+	<link rel="shortcut icon" href="image/leaflet.svg" type="image/x-icon">
 	<title>Карта leaflet</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/leaflet.css">
@@ -15,12 +16,36 @@
 	<header>
 		<div>
 			<p>Leaflet</p>
-			<img src="image/leaflet.svg">
 		</div>
 	</header>
-	<!--Карта-->
-	<div id="mapid"></div>
 
+	<article>
+		<section class="frame">
+			<div id="mapid"></div>
+		</section>
+	</article>
+
+	<article>
+		<section class="description">
+			В данном проекте, для отображения географической карты, была использована библиотека Leaflet.js.
+			Leaflet — библиотека с открытым исходным кодом, написанная на JavaScript, предназначенная для отображения карт на веб-сайтах. Поддерживает большинство мобильных и стационарных платформ из числа тех, что поддерживают HTML5 и CSS3.
+			Наряду с OpenLayers и Google Maps API — одна из наиболее популярных картографических JavaScript-библиотек, использующаяся на таких крупных сайтах, как Flickr, Foursquare, Craigslist, Data.gov, IGN, проектах Викимедиа, OpenStreetMap, Meetup, WSJ, MapBox, CloudMade, CartoDB и других. В данном проекте город был отмечен маркером, кругом был отмечен второй микрорайон, а прямоугольником центральный парк. В папке js, в файле leaflet.js, исходный код библиотеки. В файле script.js, настройки библиотеки.
+		</section>
+	</article>
+
+	<footer class="footer">
+		<h1>Наши контакты ниже:</h1>
+		<hr>
+		<div class="contacts">
+			<a href="#"><img src="image/social-network/github.svg" alt="гитхаб" width="20px" height="20px"></a>			
+			<a href="#"><img src="image/social-network/instagram.svg" alt="инста" width="20px" height="20px"></a>			
+			<a href="#"><img src="image/social-network/mail.svg" alt="маил" width="20px" height="20px"></a>			
+			<a href="#"><img src="image/social-network/vk.svg" alt="вк" width="20px" height="20px"></a>
+			<a href="#"><img src="image/social-network/whatsapp.svg" alt="ватсапп" width="20px" height="20px"></a>
+		</div>
+		<br>
+	</footer>
+	
 	<script type="text/javascript" src="js/script.js"></script>
 
 </body>

@@ -40,4 +40,3 @@ var mymap = L.map('mapid').setView([43.510526, 44.585584], 13);
 			.openOn(mymap);
 	}
 	mymap.on('click', onMapClick);
-
